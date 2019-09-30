@@ -102,7 +102,7 @@ class App extends Component {
             </TabPanel>
             <TabPanel>
                <ScienceB dark={this.state.checked} onClick={this.onClick} />
-               <em style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Note: for find square root Press Number then press operator of square root</em>
+               <em style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Note: for find square root Press Number then press operator of square root. And +/- not working till now.</em>
             </TabPanel>
        </Tabs>
        <br/>

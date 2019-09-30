@@ -31,7 +31,7 @@ class ScienceB extends Component {
                 <button className={this.props.dark ? 'buttondark2' : 'button2'} name="8" onClick={e => this.props.onClick(e.target.name)}>8</button>
                 <button className={this.props.dark ? 'buttondark2' : 'button2'} name="9" onClick={e => this.props.onClick(e.target.name)}>9</button>
                 <button className={this.props.dark ? 'buttondark2' : 'button2'} name="*" onClick={e => this.props.onClick(e.target.name)}>x</button>
-                <button className={this.props.dark ? 'buttondark2' : 'button2'} name="flip" onClick={e => this.props.onClick(e.target.name)}>+/-</button>
+                <button className={this.props.dark ? 'buttondark2' : 'button2'} name="flip" disabled onClick={e => this.props.onClick(e.target.name)}>+/-</button>
                 <br/>
 
                 <button className={this.props.dark ? 'buttondark2' : 'button2'} name="." onClick={e => this.props.onClick(e.target.name)}>.</button>
