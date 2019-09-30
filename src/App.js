@@ -4,6 +4,7 @@ import "react-tabs/style/react-tabs.css";
 import Switch from "react-switch";
 import Result from './component/Result';
 import NormalB from './component/NormalB';
+import logo from './component/logo.png';
 import ScienceB from './component/ScienceB';
 class App extends Component {
   constructor(){
@@ -87,13 +88,13 @@ class App extends Component {
     return (
       <div>
         <div className="calculator-body">
-          <h1 ref='header'>Simple Calculator</h1>
+          <h1 ref='header'><img src={logo} alt="brand" loading='lazy' style={{height:'32px',width:'32px'}}/>&nbsp;&nbsp;Simple Calculator</h1>
+          <Switch onChange={this.handleChange} checked={this.state.checked}/>{this.state.checked ? <span className="dark">Dark</span>: <span className="light">Light</span>}
         </div>
         <Tabs className="calculator-body">
             <TabList>
               <Tab style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Normal</Tab>
               <Tab style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Scientific</Tab>
-              <Switch onChange={this.handleChange} checked={this.state.checked}/>
             </TabList>
             <Result result={this.state.result} />
             <TabPanel>
@@ -101,6 +102,7 @@ class App extends Component {
             </TabPanel>
             <TabPanel>
                <ScienceB dark={this.state.checked} onClick={this.onClick} />
+               <em style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Note: for find square root Press Number then press operator of square root</em>
             </TabPanel>
        </Tabs>
        <br/>

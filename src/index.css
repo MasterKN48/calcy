@@ -57,3 +57,13 @@ code {
   height: 60px;
   font-size: 30px;
 }
+.light{
+  margin-left: 10px;
+  padding-bottom: 20px;
+  color: #1d1d1d;
+}
+.dark{
+  margin-left: 10px;
+  padding-bottom: 20px;
+  color:whitesmoke;
+}
