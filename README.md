@@ -1,6 +1,6 @@
 
 Calcy-Yet Another Calculator: 
-![PWA](https://github.com/MasterKN48/calcy/blob/master/public/logo.png "Logo Title Text 1" =200x200)
+![PWA](https://github.com/MasterKN48/calcy/blob/master/public/logo.png =200x200)
 
 
 This Project Created For internship assignment task.
