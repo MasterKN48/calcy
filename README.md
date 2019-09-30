@@ -1,5 +1,10 @@
 
+Calcy-Yet Another Calculator: 
+![PWA](https://github.com/MasterKN48/calcy/blob/master/public/logo.png "Logo Title Text 1")
+
+
 This Project Created For internship assignment task.
+[Demo](https://masterkn48.github.io/calcy/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
