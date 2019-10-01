@@ -16,7 +16,6 @@ class App extends Component {
     }
 
     onClick = button => {
-
         if(button === "="){
             this.calculate()
         }
@@ -27,7 +26,11 @@ class App extends Component {
         else if(button === "C"){
             this.backspace()
         }
-
+        else if (button === "flip") {
+          this.setState({
+            result: `-(${this.state.result})`
+          }, () => this.calculate())
+        }
         else {
             this.setState({
                 result: this.state.result + button
@@ -102,7 +105,7 @@ class App extends Component {
             </TabPanel>
             <TabPanel>
                <ScienceB dark={this.state.checked} onClick={this.onClick} />
-               <em style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Note: for find square root Press Number then press operator of square root. And +/- not working till now.</em>
+               <em style={this.state.checked===true ? {backgroundColor:'#1d1d1d',color:'white'}:{backgroundColor:'white',color:'black'}}>Note: for find square root Press Number then press operator of square root. </em>
             </TabPanel>
        </Tabs>
        <br/>

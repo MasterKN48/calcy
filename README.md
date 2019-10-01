@@ -1,7 +1,19 @@
 
+<<<<<<< HEAD
 Calcy-Yet Another Calculator: 
 ![PWA](https://github.com/MasterKN48/calcy/blob/master/public/logo.png "Credit: iconfinder.com")
+=======
+<p align="center"> 
+<img src="https://github.com/MasterKN48/calcy/blob/master/public/logo.png" alt="drawing" width="100" height="100" /> 
+</p>
+>>>>>>> ff2a8836ed93ded637c700f78175ec9903eadc76
 
+Calcy : Yet Another Calculator
+-------------
+
+#### Features
+- Dark Mode
+- scientific
 
 This Project Created For internship assignment task.
 [Demo](https://masterkn48.github.io/calcy/)
