@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "976de89d2a6c370d4301c0f8916c941d",
+    "revision": "38f6a32fba9aeee608b8fd5d09b63532",
     "url": "/calcy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/calcy/static/css/2.5c17b9f1.chunk.css"
   },
   {
-    "revision": "698a87f54954e11ff1c2",
+    "revision": "0ef098b71c09446b5a8c",
     "url": "/calcy/static/css/main.db6cfe94.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/calcy/static/js/2.dc2891d6.chunk.js"
   },
   {
-    "revision": "698a87f54954e11ff1c2",
-    "url": "/calcy/static/js/main.cbefb65f.chunk.js"
+    "revision": "0ef098b71c09446b5a8c",
+    "url": "/calcy/static/js/main.ad3d4dbb.chunk.js"
   },
   {
     "revision": "e7f79425c6a84d2289d9",
