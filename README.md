@@ -1,6 +1,3 @@
-
- ![PWA](https://github.com/MasterKN48/calcy/blob/master/public/logo.png "Credit: iconfinder.com")
-=======
 <p align="center"> 
 <img src="https://github.com/MasterKN48/calcy/blob/master/public/logo.png" alt="drawing" width="100" height="100" /> 
 </p>
